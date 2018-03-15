@@ -19,9 +19,7 @@ pipeline {
         stage('stage2') {
           steps {
             sh '''#!/bin/bash
-
-cd /home/oss/vmware
-terraform init
+/bin/bash/whoami
 '''
           }
         }
