@@ -20,6 +20,8 @@ pipeline {
           steps {
             sh '''#!/bin/bash
 whoami
+ssh oss@10.211.203.217
+hostname; whoami
 '''
           }
         }
