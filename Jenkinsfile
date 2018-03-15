@@ -19,7 +19,7 @@ pipeline {
         stage('stage2') {
           steps {
             sh '''#!/bin/bash
-/bin/bash/whoami
+whoami
 '''
           }
         }
